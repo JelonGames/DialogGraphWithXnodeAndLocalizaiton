@@ -1,0 +1,27 @@
+{
+  "name": "com.github.jelongames.dialoggraphwithxnodeandlocalization",
+  "version": "1.0.0",
+  "displayName": "DialogGraphWithXnodeAndLocalization",
+  "description": "Dialog Graph tool using Xnode and Localization to create graphs",
+  "unity": "2018.3",
+  "documentationUrl": "https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton",
+  "licensesUrl": "https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton/blob/main/LICENSE",
+  "dependencies": {
+    "com.github.siccity.serializablecallback": "1.0.0",
+    "com.github.siccity.xnode": "1.8.0",
+    "com.github.siccity.xnodegroups": "1.0.0",
+    "com.unity.localization": "1.5.2"
+  },
+  "keywords": [
+    "DialogGraph",
+    "Dialog",
+    "Dialogue",
+    "Graph",
+    "Localization",
+    "Xnode"
+  ],
+  "author": {
+    "name": "JelonGames",
+    "url": "https://github.com/JelonGames"
+  }
+}

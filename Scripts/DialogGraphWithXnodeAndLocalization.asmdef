@@ -1,0 +1,25 @@
+{
+    "name": "DialogGraphWithXnodeAndLocalization",
+    "rootNamespace": " ",
+    "references": [
+        "GUID:b8e24fd1eb19b4226afebb2810e3c19b",
+        "GUID:0639f827a36f385439474b832a4a5044",
+        "GUID:fb02b04b80650c146891828c7bc58418",
+        "GUID:002c1bbed08fa44d282ef34fd5edb138",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:2e77701fe0ceda44fb763f03ee704c37",
+        "GUID:f714f5a1a66a44628c69d24d31158ed5",
+        "GUID:f4dea7fcb51cdfb4aa526b9274bd58f3",
+        "GUID:11a2306c728a4b843a652ec6c2f142bc",
+        "GUID:a49fd1d25e23fd14e85d1cbf342bb06f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
