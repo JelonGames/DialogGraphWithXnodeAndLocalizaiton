@@ -1,75 +1,74 @@
 # 🗨️ DialogGraphWithXnodeAndLocalization  
 
-🚀 **DialogGraphWithXnodeAndLocalization** to potężne i elastyczne narzędzie dla Unity, które pozwala na łatwe tworzenie dynamicznych drzew dialogowych z obsługą lokalizacji! Dzięki integracji z **XNode**, **XNodeGroups**, **SerializableCallback** oraz **Unity Localization**, możesz budować złożone systemy rozmów dla swoich gier – bez potrzeby pisania skomplikowanego kodu!  
+🚀 **DialogGraphWithXnodeAndLocalization** is a powerful and flexible tool for Unity that allows you to easily create dynamic dialogue trees with localization support! Thanks to integration with **XNode**, **XNodeGroups**, **SerializableCallback**, and **Unity Localization**, you can build complex conversation systems for your games—without writing tons of code!  
 
-🔹 **Intuicyjny edytor graficzny** – twórz dialogi wizualnie, zamiast pisać setki linijek kodu!  
-🔹 **Pełna obsługa lokalizacji** – tłumacz swoje dialogi na dowolny język z pomocą Unity Localization.  
-🔹 **Elastyczny system warunków** – dostosowuj ścieżki dialogowe w zależności od decyzji gracza.  
-🔹 **Prosta integracja** – łatwo podłącz do swojego projektu i zacznij działać od razu!  
+🔹 **Intuitive visual editor** – create dialogues visually instead of writing hundreds of lines of code!  
+🔹 **Full localization support** – translate your dialogues into any language using Unity Localization.  
+🔹 **Flexible condition system** – adjust dialogue paths based on player choices.  
+🔹 **Easy integration** – quickly add it to your project and start using it right away!  
 
 ---  
 
-## 📥 Instalacja  
+## 📥 Installation  
 
-Aby zacząć, upewnij się, że masz zainstalowane następujące zależności:  
+Before getting started, make sure you have the following dependencies installed:  
 
-✅ [XNode](https://github.com/Siccity/xNode) – system graficznych węzłów.  
-✅ [XNodeGroups](https://github.com/Siccity/xNodeGroups) – ulepszona organizacja węzłów.  
-✅ [SerializableCallback](https://github.com/Siccity/SerializableCallback) – obsługa zdarzeń w edytorze Unity.  
-✅ *(Opcjonalnie)* Unity Localization – jeśli chcesz korzystać z wielojęzycznych dialogów.  
+✅ [XNode](https://github.com/Siccity/xNode) – graphical node system.  
+✅ [XNodeGroups](https://github.com/Siccity/xNodeGroups) – improved node organization.  
+✅ [SerializableCallback](https://github.com/Siccity/SerializableCallback) – event handling in Unity Editor.  
+✅ *(Optional)* Unity Localization – if you want to use multilingual dialogues.  
 
-Aby zainstalować **DialogGraphWithXnodeAndLocalization**:  
+To install **DialogGraphWithXnodeAndLocalization**:  
 
-1️⃣ Otwórz **Package Manager** w Unity.  
-2️⃣ Kliknij **"Add package from git URL..."**.  
-3️⃣ Wklej:  
+1️⃣ Open **Package Manager** in Unity.  
+2️⃣ Click **"Add package from git URL..."**.  
+3️⃣ Paste the following:  
    ```plaintext
    https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton.git
    ```  
-4️⃣ Kliknij **Add** i gotowe!  
+4️⃣ Click **Add**, and you're all set!  
 
 ---  
 
-## 🎨 Tworzenie pierwszego grafu dialogowego  
+## 🎨 Creating Your First Dialogue Graph  
 
-Aby stworzyć nowy graf dialogowy w Unity:  
+To create a new dialogue graph in Unity:  
 
-1️⃣ Wybierz: **Create** > **Tools** > **Dialog** > **Dialog Graph**.  
-2️⃣ Otwórz go w edytorze i dodaj własne węzły dialogowe.  
-3️⃣ Połącz je, dodaj warunki oraz lokalizacje, a potem zobacz swój system w akcji!  
+1️⃣ Go to: **Create** > **Tools** > **Dialog** > **Dialog Graph**.  
+2️⃣ Open it in the editor and add your dialogue nodes.  
+3️⃣ Connect them, add conditions and localization, and watch your system come to life!  
 
-Domyślnie graf zawiera dwa węzły:  
-🔹 `StartNode` – punkt początkowy rozmowy (nieusuwalny).  
-🔹 `EndNode` – zakończenie rozmowy.  
+By default, the graph contains two nodes:  
+🔹 `StartNode` – the entry point of the conversation (cannot be deleted).  
+🔹 `EndNode` – the conversation’s conclusion.  
 
-![image](https://github.com/user-attachments/assets/83ff7497-f00a-405a-a929-b415bee18cc6)
-
-Przed uruchomieniem upewnij się, że masz skonfigurowane tabele lokalizacyjne i dodałeś je do grupy `Dialogue`. Szczegółowe informacje znajdziesz w [dokumentacji Unity Localization](https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html).  
-
----  
-
-## 🎮 Dlaczego warto?  
-
-✅ **Łatwa integracja** – działa z istniejącymi projektami bez dodatkowej konfiguracji.  
-✅ **Oszczędność czasu** – wizualne projektowanie dialogów bez potrzeby pisania kodu.  
-✅ **Obsługa języków** – tłumacz dialogi na wiele języków w prosty sposób.  
-✅ **Dynamiczne warunki** – twórz interaktywne rozmowy oparte na decyzjach gracza.  
-
-🔥 **Nie trać czasu na ręczne kodowanie dialogów – pobierz teraz i przyspiesz swój rozwój gry!**  
-
-![image](https://github.com/user-attachments/assets/74ee47a8-0ce4-45c6-b8e9-5754f180ddf7)
+Before running, make sure you have set up localization tables and added them to the `Dialogue` group. For detailed instructions, check out the [Unity Localization documentation](https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html).  
+<br>![image](https://github.com/user-attachments/assets/9a9da1bc-9b07-48c5-9fc3-8e34afdea261)
+<br>![image](https://github.com/user-attachments/assets/68bb1633-bf50-4655-b249-08f1fc55f166)
 
 ---  
 
-## ⚙️[Documentation](https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton/wiki)
+## 🎮 Why Use It?  
+
+✅ **Easy integration** – works with existing projects without extra setup.  
+✅ **Time-saving** – design dialogues visually without writing code.  
+✅ **Language support** – translate dialogues effortlessly.  
+✅ **Dynamic conditions** – create interactive conversations based on player choices.  
+
+🔥 **Stop manually coding dialogues—download now and speed up your game development!**  
+![image](https://github.com/user-attachments/assets/cdac3096-e01c-46e8-95ae-0404fd1d5bd5)
 
 ---
 
-## 📜 Licencja  
+## ⚙️[Documentation](https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton/wiki)
 
-Projekt dostępny na licencji **MIT** – możesz go używać zarówno w projektach komercyjnych, jak i niekomercyjnych! Szczegóły znajdziesz w pliku `LICENSE`.  
+---  
 
-🔗 [**Pobierz teraz z GitHub!**](https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton) 🚀
+## 📜 License  
+
+This project is licensed under the **MIT License**, meaning you can use it in both commercial and non-commercial projects. Details can be found in the `LICENSE` file.  
+
+🔗 [**Download now from GitHub!**](https://github.com/JelonGames/DialogGraphWithXnodeAndLocalizaiton) 🚀
 
 | Package Name | Version | Author | License Link |
 | --- | --- | --- | ---|
